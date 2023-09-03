@@ -18,7 +18,7 @@ function ArqMarker (prop: MarkerData) {
     return (
         <Marker position={prop.position}>
             <Popup>
-                <img src={prop.imageUrl}></img>
+                <img className="marker-img" src={prop.imageUrl}></img>
                 {prop.description}
                 <br/><br/>
                 Autor: {prop.author}
@@ -27,15 +27,21 @@ function ArqMarker (prop: MarkerData) {
     )
 }
 
-function App() {
+function getMarkerComponents() : React.ReactElement [] {
     const markers : MarkerData[] = markersJson.markers;
-    const tempMarkerComponents : React.ReactElement[] = []
-    
+    const markerComponents : React.ReactElement[] = []
     for (let i = 0; i < markers.length; i++) {
         const marker = markers[i];
-        tempMarkerComponents.push(<ArqMarker imageUrl={marker.imageUrl} position={marker.position} author={marker.author} description={marker.description}/>)
+        markerComponents.push(<ArqMarker imageUrl={marker.imageUrl} position={marker.position} author={marker.author} description={marker.description}/>)
     }
-    const [markersComponents, setMarker] = useState<React.ReactElement[]>(tempMarkerComponents);
+
+    return markerComponents
+}
+
+function App() {
+    const markerComponents : React.ReactElement[] = getMarkerComponents()    
+
+    const [markersComponents, setMarker] = useState<React.ReactElement[]>(markerComponents);
     
 
     const tileLayerProps = { 
