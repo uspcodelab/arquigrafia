@@ -14,11 +14,10 @@ interface MarkerData {
 }
 
 function ArqMarker (prop: MarkerData) {
-
     return (
         <Marker position={prop.position}>
             <Popup>
-                <img className="marker-img" src={prop.imageUrl}></img>
+                <img src={prop.imageUrl} className="popup-image"/>
                 {prop.description}
                 <br/><br/>
                 Autor: {prop.author}
@@ -50,8 +49,8 @@ function App() {
     }
 
     const mapContainerProps = {
-        center: [51.505, -0.09],
-        zoom: 10
+        center: [-23.55993522722115, -46.72985308377932],
+        zoom: 13
     }
     return (
         <div>

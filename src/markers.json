@@ -1,15 +1,23 @@
 {
-    "markers": [{
-        "imageUrl": "https://www.tenhomaisdiscosqueamigos.com/wp-content/uploads/2018/01/bryan-cranston-breaking-bad.jpg",
-        "position": [51.505, -0.09],
-        "description": "ablueblabelabel",
-        "author": "kutukalku"
+    "markers": [
+    {
+        "imageUrl": "https://uspprofissoes.usp.br/wp-content/uploads/2013/03/IME_MARCOS_SANTOS.jpg",
+        "position": [-23.55917618404138, -46.73180601765593],
+        "description": "Instituto de Matemática e Estatística - IME (USP)",
+        "author": "CodeLab"
     },
     {
-        "imageUrl": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAJAAwAMBIgACEQEDEQH/xAAbAAABBQEBAAAAAAAAAAAAAAAAAQIEBQYDB//EADkQAAEEAQMCBAMFBgYDAAAAAAEAAgMRBAUSITFBBiJRYRNxkRQyQoHBByNSobHwJFNi0eHxFZKy/8QAGQEAAwEBAQAAAAAAAAAAAAAAAAIDAQQF/8QAHxEBAQEBAAMAAwEBAAAAAAAAAAERAgMhMSJBYVES/9oADAMBAAIRAxEAPwDx5CEKxQhCEAIQhAIAlQhAIlCEIASFKkK0LTwzjfadVZY8sXnP9AvUtMZTQAvP/A8fmypfVzWfQX+q9E04eZpHQhcnlu11eGel9iM8wHZXWL8MAAHlVMBpjS0cqyxQ8uBoBS5W6iTK9rT3PyUSd2542sNHq3oFKlDnAXQUNx8+0enVbSyOUkb3PsgBvYX0XMt2sdQ4U5sNRAm/UKJP9wkgJKfVHm2HHhUOceD9Vo5zudYFhZ3VnbGuNAcLefo6+PPNc3HKkbdtHX2VVIzbQ9lY6nL9oznBgsH7w78KBlsoNDnbiDTfkF1cfHH05oQhWSCEIQAhCEAIQhACEqFo0iQpUhQGq8EGocm/80f/ACFv8J3lAHZec+Dpg1+TEf4mv+oI/QL0LTjYDlx+We3X4a0OHM0DgmlaY0waRzQWa+2fB6An2AUSXxDJ8Qxx4srnDs0dlGLWxu5Z2PYFGx4qJPZZfC13tkNfGT0DmlXkOcHxfuuRXX1TayT/ABYPlYxlg2enKr8qQHgnjv8AJZzWfEUOl2J3mndOOiyWX4xycgluK11O46WUZo2ctjqGoNY4sZzzwAsnruaSxzTbSoTZNYnHxPhiNvUE1f0UaSOWe3zSh23ktHVNOcJerWdzmfZtRiO4gPIJsdrUKWQvlfzY3Gvqper5X2t7H3y08fIqA0K/HxzdfXVKhCumRKhKEAiROpFIBKRSVFIZpKQlpC0ClM0vHxJnPObMY2AgDtZPqVEVho5jM0kUm23tBbfej0/ml6+N5+r7TdEjxMg5ONkF0TmUWk334NrW6a/93tKymGw4TyxhphIJaeQVrNOLS0E8j2K5OnXxMp2RLJEaMjYomi5Zjzt9AO1qLlayYfh4+Jo7zG+iZZpQ1zwfxG/N9VexfBcP8RGdt2KB4Pr/AFXSaaCNgbHG9x/Caq/5KfNitlVum/bcmYQytlax7dwErdzb9Aev5LX6ZiDGjLJmNFN/D8lWaTizOezIlcWDqACrzbuY912imjx79qB26yxjRw2OwE3wLhDLawTRTSguoRRjbuP+p/YKR48xRP4nx43eVrxTrPZazw27HwcMQxuLC26c0VYTbkJl/wCkLXtS1XTJPs8WFgMgaDfJFiuK6A9+3osPn6u7IbLkxR7SAY5gRxz7r1HMrKOx7myMHI3saQst4xkw8HS5XTbZZ5Bsa0ANaB2oBbLC3i57eVTM27aN2PfsmtU/S4Dk/Euw0dD7KLJQlcBXXsr8OboqVOpJSslpEtJQEoCBpqE7alDUM02kBPpFLRptIpPpFLWGUgEtcHNNOabB9E8hIQsbGqxZ/t2JHNwHEFr67FaXRZxJE0H05WA0TLGNl7JHARS0DfQO7FbbTjscRXvQ91y+XnHZ4+tavGeWEFrirLGaHvDiN3uVS4jy8D1V5hlrWG+KXL+3T+k2QjytBvlSSwMwXGvN2VXjTNlyXSWNrPK3lXOU+N2GCO3umkLXkn7RcR4mjz2kjY4An1XXwvnxZkJ2P3OYfMLU79pU0DdGlY9waTRHztee6LqcOlZEGVjuJII+M09CE8mwludPUshwZGDuIHUeyqNS03TMxrZM5xkLeC1zu/8AdK2c+HM0/wC0QuDmvbfyXmXifNyYNR+zh9MdzYWce293Jqw1/N0/AxSzBZGHHgBvZYu9zifdW+r4bIcaJ7CXE8mzfVVA6BdHDl7u1IpFJ4CWl0OfTA1LScGpwasGm0il0ARtQDKRS6Ujahhm1G1dQ1FI0OW1JS7bUhajWI5aDweh6rXeFdQ+OwQSuuaMVz3b2WWLVYeHZPg6vDf4wWH+/wAlPye4t4+sr1DCf5GlWb5izGcG/edwFRYEltv869FawuD3gOPAXFZ7ehL6dnYWVHgiXDcwzXuMchNPHpfY/VV2V4lmw8X/ABME0Ti29rx09rV0M6NtMseWh+artYMWXjub8MusG2d02Rm14/4p12XVcpwe4mPswFUjZONott+69FzPB2PKwvjbzzyP791ls7QYsR9OkLT1o+irLI5up1utD+z3V3xRuwpnfunmmE/hKqfH8Yjz2loA6838qUjTomQYTjim3sNtI9eq4eM525eJiZDAPP1/Ufklk/L0e9bxiily3TY1PPPAXCJu40uLT2UrFFuPsr8/XP1UkBLSdScGqyJgCcAnAJ+1YDA1Lt9k8NShqA5hqXbyum1O28oDkG8IDbXYNRtQxzDUhau21G3hARy1MjeYJmSt6scHD3pSHNUXJlZGCPvH0CSqc/Xo2lZLZYmva6w5oIPr3VuXlkBkb1AtZLRJPh42I6/LJCwfI7R/ytQy5YWsJHPFE8rk6nt3S+lRjZGq5eVJLiwN+AOr5XEA/LjlWsGJruRxHkY7eejWFxKs2FrIgwAVQToZ2QPBY0XfVEqkmRntQxdcEL8ePNxYWtPX4ZBWH1vSc9u6WbOjnI56EL07UMppG34cd9SXNFlYfWZ3SzuhawDtbQmlL3liJ4aw8l2DO2Tbtrgj3UDxLhy4mnQiRm1pfuYKqr6/0Wo8Ph8eNI4Cmx+ZxrgiuQuHj0RZ2NE2La0NZvbRrkIl9pWennLVPwW+Uu9eFBA7WLVhgzMLRHdO7D1XRHNUoBOATgE4NVEjQ1PDUrQn0hrm0J21dAEu1Ac9qcGroGpQ1Ac9qXYuu1HABLiAB1J7IBmxcZ54scec89gOSo2VqPVkH/uf0VcSXGySSe5Q3EifMfJw0bG+3VRDbnVZ56ocaTY3bnlxHASU8jdaG9r9OxWu/wApo+n/AEtZguFNdZ3gc+yw/hycTYQhsCSEkEf6b4WnxMoxtBc53B5IF0uaz26Z81o9u8fqukGLZG51d6UXDzGuYLe2+OPyT/twbvskGqPTr1SYrOpSZeFG9p/eF77ujyD7dFn8rSwJ3vGzaBZrself36qzyMw8iM7iG3R49v1VNnak+KR7mF5dsBoUbBJ9ueyaQvVhcmVun4hiDTvcASOKo8dOPqDxfssbrmZG5jo9zy4U3zNFAf3+ik6/qReGuDnM8o7tdZv1+X9AsrNkOl+88lU55Q66N7+td0dxR5TLSgp9TaUBOrhLSUKyQaE7sgJ1IAaE8BDQugCATbwgBOKh5WfDB5WH4knoDwPmUNSJ5GQxl8h4HQeqpMrLkyXEHhg6NC5ZE0mRIXymz29vkmhAJSD0SkJjyAO9paZwlcbpdtu1grqU2GPdMS49BakPFpDyO2l5r8LKZkN5/C8fxNWzw8uKaNs0D9zf5j5rAt8pICnafnSYU4kjpzT96M9wk651TnrGydM/De97H/upBZYejT6hV2T4tjZOWytcA2q2ciuiY/Ni1HCc2B43VRYfvN/JZqTRskE24H2ST+t6/i5zvFbJWbYi/n25ab4IVPk63PkEXbQKqjzwq+aAwu2uNFc9o9VT0nbTppXSvLn1z2A4XNB6oQwICEIY1lJaStCdXCukQJ1Jq45ObFjcE739mj/dAS28CyaCiZOpwxWI/wB44enT6qqyMubIPndTf4W9FxBv/pBsSJ83InsOfTT+FvAXADt2RSWkNCUdUIQwpXN5oWnWFxndXA7pKaHY3LnO/iNKQRwucbdrQPZdQbHXj1WKRzrzLhNPVti/MpciavIz6qMxjpDTQUrLXSB72OMjbJHdXGPqrhGWyN30OHBVrInRx9eT1XK3sBBO0E30tGCXEiZks0hcGHzHjupP/jXx4/xJo3NvoCn+HNQjxMzZkbTG88OI4a7/AGKm+Itda+U4+I1u0dZPU+yT2f8AHNZ+THcSaFLkGtDiHG/klkmkkPnefl2XNMnT3NHUdExK11J+2zwtY//Z",
-        "position": [49, -0.69],
-        "description": "ablueblabelabel",
-        "author": "kutukalku"
+        "imageUrl": "https://www.nelsonkon.com.br/wp-content/uploads/2019/02/vilanova_artigas_fauusp_IMG_7579.jpg",
+        "position": [-23.55993522722115, -46.72985308377932],
+        "description": "Faculdade de Arquitetura e Urbanismo - FAU (USP)",
+        "author": "CodeLab"
+    },
+    {
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrDfaGuaahJAH8MnDJEdUagWxXG0vyxLHmMQ&usqp=CAU",
+        "position": [-23.561034241147674, -46.73172618195721],
+        "description": "Instituto de Oceanografia - IO (USP)",
+        "author": "CodeLab"
     }
 ]
+    
 }
