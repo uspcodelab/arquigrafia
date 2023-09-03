@@ -1,8 +1,15 @@
 {
     "markers": [{
-        "imageUrl": "https://www.tenhomaisdiscosqueamigos.com/wp-content/uploads/2018/01/bryan-cranston-breaking-bad.jpg",
-        "position": [51.505, -0.09],
-        "description": "ablueblabelabel",
-        "author": "kutukalku"
+        "imageUrl": "https://uspprofissoes.usp.br/wp-content/uploads/2013/03/IME_MARCOS_SANTOS.jpg",
+        "position": [-23.55917618404138, -46.73180601765593],
+        "description": "Instituto de Matemática e Estatística - IME (USP)",
+        "author": "CodeLab"
+    },
+    {
+        "imageUrl": "https://www.nelsonkon.com.br/wp-content/uploads/2019/02/vilanova_artigas_fauusp_IMG_7579.jpg",
+        "position": [-23.55993522722115, -46.72985308377932],
+        "description": "Faculdade de Arquitetura e Urbanismo - FAU (USP)",
+        "author": "CodeLab"
     }]
+    
 }

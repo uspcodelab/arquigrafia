@@ -14,11 +14,10 @@ interface MarkerData {
 }
 
 function ArqMarker (prop: MarkerData) {
-
     return (
         <Marker position={prop.position}>
             <Popup>
-                <img src={prop.imageUrl}></img>
+                <img src={prop.imageUrl} className="popup-image"/>
                 {prop.description}
                 <br/><br/>
                 Autor: {prop.author}
@@ -34,6 +33,7 @@ function App() {
     for (let i = 0; i < markers.length; i++) {
         const marker = markers[i];
         tempMarkerComponents.push(<ArqMarker imageUrl={marker.imageUrl} position={marker.position} author={marker.author} description={marker.description}/>)
+
     }
     const [markersComponents, setMarker] = useState<React.ReactElement[]>(tempMarkerComponents);
     
