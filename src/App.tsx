@@ -3,6 +3,8 @@ import { useState } from 'react';
 import { MapContainer, TileLayer,  Marker, Popup} from 'react-leaflet'
 import './App.css'
 import 'leaflet/dist/leaflet.css';
+import markersJson from './markers.json';
+
 
 interface MarkerData {
     imageUrl : string;
@@ -24,11 +26,16 @@ function ArqMarker (prop: MarkerData) {
         </Marker>
     )
 }
+
 function App() {
-    const markers : React.ReactElement[] = [
-        <ArqMarker key="marker1" imageUrl="https://www.tenhomaisdiscosqueamigos.com/wp-content/uploads/2018/01/bryan-cranston-breaking-bad.jpg" position={[51.505, -0.09]} description="ablueblabelabel" author="kutukalku"/>
-    ];
-    const [markersComponents, setMarker] = useState<React.ReactElement[]>(markers);
+    const markers : MarkerData[] = markersJson.markers;
+    const tempMarkerComponents : React.ReactElement[] = []
+    
+    for (let i = 0; i < markers.length; i++) {
+        const marker = markers[i];
+        tempMarkerComponents.push(<ArqMarker imageUrl={marker.imageUrl} position={marker.position} author={marker.author} description={marker.description}/>)
+    }
+    const [markersComponents, setMarker] = useState<React.ReactElement[]>(tempMarkerComponents);
     
 
     const tileLayerProps = { 
