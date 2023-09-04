@@ -10,13 +10,12 @@
         "@types/node": "^16.18.43",
         "@types/react": "^18.2.21",
         "@types/react-dom": "^18.2.7",
-        "leaflet": "^1.9.4",
-        "react": "^18.2.0",
         "react-dom": "^18.2.0",
         "react-leaflet": "^4.2.1",
         "react-scripts": "5.0.1",
         "typescript": "^4.9.5",
-        "web-vitals": "^2.1.4"
+        "web-vitals": "^2.1.4",
+        "leaflet": "^1.9.4"
     },
     "scripts": {
         "start": "react-scripts start",
@@ -49,12 +48,15 @@
     "typescript": "tsc --project tsconfig.json --noEmit",
     "devDependencies": {
         "@testing-library/dom": "^9.3.1",
+        "@types/leaflet": "^1.9.4",
         "eslint": "^8.48.0",
         "eslint-plugin-react": "^7.33.2",
         "husky": "^8.0.3",
+        "leaflet": "^1.9.4",
         "lint-staged": "^14.0.1",
         "prettier": "^3.0.2",
-        "tsc-files": "^1.1.4",
-        "leaflet": "^1.9.4"
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "tsc-files": "^1.1.4"
     }
 }

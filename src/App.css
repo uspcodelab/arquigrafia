@@ -34,6 +34,10 @@
     color: #61dafb;
 }
 
+.arq-popup {
+    overflow-wrap: normal;
+}
+
 @keyframes App-logo-spin {
     from {
         transform: rotate(0deg);
