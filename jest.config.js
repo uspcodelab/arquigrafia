@@ -1,15 +1,15 @@
 /** @type {import('ts-jest').JestConfigWithTsJest} */
-
 module.exports = {
     preset: 'ts-jest',
     transform: {
-        '^.+\\.tsx?$': 'ts-jest',
+        '^.+\\.(js|jsx|ts|tsx)$': 'ts-jest',
     },
     setupFilesAfterEnv: ['./tests/setupTests.ts'],
     moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx', 'json', 'node'],
     modulePaths: ['.'],
+    moduleDirectories: ['node_modules'],
     moduleNameMapper: {
-        '^.+\\.(css|less|scss|sass)$': '<rootDir>/tests/styleMock.ts'
+        '^.+\\.(css|less|scss|sass)$': '<rootDir>/tests/styleMock.ts',
     },
     testEnvironment: 'jest-environment-jsdom',
     coverageThreshold: {
@@ -21,6 +21,6 @@ module.exports = {
         },
     },
     transformIgnorePatterns: [
-        '/node_modules/(?!(react-leaflet/lib|@react-leaflet/core/lib|leaflet)/)',
+        'node_modules/(?!react-leaflet/lib|@react-leaflet/core/lib|leaflet)',
     ],
 }
