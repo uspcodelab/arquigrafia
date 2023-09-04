@@ -1,4 +1,5 @@
 /** @type {import('ts-jest').JestConfigWithTsJest} */
+
 module.exports = {
     preset: 'ts-jest',
     transform: {
@@ -8,7 +9,7 @@ module.exports = {
     moduleFileExtensions: ['ts', 'tsx', 'js', 'jsx', 'json', 'node'],
     modulePaths: ['.'],
     moduleNameMapper: {
-        '^.+\\.(css|less|scss|sass)$': '<rootDir>/tests/styleMock.ts',
+        '^.+\\.(css|less|scss|sass)$': '<rootDir>/tests/styleMock.ts'
     },
     testEnvironment: 'jest-environment-jsdom',
     coverageThreshold: {
