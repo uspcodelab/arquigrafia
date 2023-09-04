@@ -1,25 +1,22 @@
 import React from 'react'
-import { useState } from 'react';
-import { MapContainer, TileLayer,  Marker, Popup} from 'react-leaflet'
 import './App.css'
-import 'leaflet/dist/leaflet.css';
-
 
 function App() {
-    const tileLayerProps = { 
-        attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors',
-        url:"https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-    }
-
-    const mapContainerProps = {
-        center: [51.505, -0.09],
-        zoom: 10
-    }
     return (
-        <div>
-            <MapContainer {...mapContainerProps}>  
-            <TileLayer {...tileLayerProps}/>
-            </MapContainer>
+        <div className="App">
+            <header className="App-header">
+                <p>
+                    Edit <code>src/App.tsx</code> and save to reload.
+                </p>
+                <a
+                    className="App-link"
+                    href="https://reactjs.org"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    Learn React
+                </a>
+            </header>
         </div>
     )
 }
