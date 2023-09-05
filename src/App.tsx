@@ -1,23 +1,11 @@
 import React from 'react'
 import './App.css'
+import 'leaflet/dist/leaflet.css';
+import Map from './components/Map'
 
 function App() {
     return (
-        <div className="App">
-            <header className="App-header">
-                <p>
-                    Edit <code>src/App.tsx</code> and save to reload.
-                </p>
-                <a
-                    className="App-link"
-                    href="https://reactjs.org"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    Learn React
-                </a>
-            </header>
-        </div>
+        <Map zoom={10} position={[-23.561034241147674, -46.73172618195721]}/>
     )
 }
 
