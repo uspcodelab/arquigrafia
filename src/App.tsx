@@ -1,24 +1,14 @@
 import React from 'react'
-import './App.css'
+import './style/App.css'
+import Map from './Components/Map'
 
-function App() {
-    return (
-        <div className="App">
-            <header className="App-header">
-                <p>
-                    Edit <code>src/App.tsx</code> and save to reload.
-                </p>
-                <a
-                    className="App-link"
-                    href="https://reactjs.org"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    Learn React
-                </a>
-            </header>
-        </div>
-    )
-}
+import L from 'leaflet'
+const DefaultIcon = L.icon({
+    iconUrl: './marker.png'
+});
+
+L.Marker.prototype.options.icon = DefaultIcon;
+
+const App = () => <Map />
 
 export default App

@@ -1,0 +1,23 @@
+{
+    "markers": [
+    {
+        "imageUrl": "https://uspprofissoes.usp.br/wp-content/uploads/2013/03/IME_MARCOS_SANTOS.jpg",
+        "position": [-23.55917618404138, -46.73180601765593],
+        "description": "Instituto de Matemática e Estatística - IME (USP)",
+        "author": "CodeLab"
+    },
+    {
+        "imageUrl": "https://www.nelsonkon.com.br/wp-content/uploads/2019/02/vilanova_artigas_fauusp_IMG_7579.jpg",
+        "position": [-23.55993522722115, -46.72985308377932],
+        "description": "Faculdade de Arquitetura e Urbanismo - FAU (USP)",
+        "author": "CodeLab"
+    },
+    {
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrDfaGuaahJAH8MnDJEdUagWxXG0vyxLHmMQ&usqp=CAU",
+        "position": [-23.561034241147674, -46.73172618195721],
+        "description": "Instituto de Oceanografia - IO (USP)",
+        "author": "CodeLab"
+    }
+]
+    
+}
