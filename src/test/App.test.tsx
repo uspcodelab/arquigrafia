@@ -10,3 +10,12 @@ describe('App', () => {
         expect(mapElement).toBeInTheDocument()
     })
 })
+
+describe('Marker', () => {
+    it('should render correctly', () => {
+        render(<App />)
+
+        const mapElement = screen.getByTestId('marker')
+        expect(mapElement).toBeInTheDocument()
+    })
+})

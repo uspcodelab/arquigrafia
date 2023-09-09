@@ -1,6 +1,11 @@
 import React from 'react'
+
+import { useState } from 'react';
 import { MapContainer, TileLayer } from 'react-leaflet'
+import { MarkerData } from './ArqMarker'
+import ArqMarker from './ArqMarker'
 import 'leaflet/dist/leaflet.css'
+import markersJson from '../../markers.json'
 
 const TILE_LAYER_PROPS = {
     attribution:
@@ -8,17 +13,29 @@ const TILE_LAYER_PROPS = {
     url: 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
 }
 
-const MAP_CONTAINER_PROPS = {
-    center: [51.505, -0.09],
-    zoom: 10,
+function getMarkerComponents() : React.ReactElement [] {
+    const markers : MarkerData[] = markersJson.markers;
+    const markerComponents : React.ReactElement[] = []
+    for (let i = 0; i < markers.length; i++) {
+        const marker = markers[i];
+        markerComponents.push(<ArqMarker key={i}imageUrl={marker.imageUrl} position={marker.position} author={marker.author} description={marker.description}/>)
+    }
+
+    return markerComponents
 }
 
-const Map = () => (
-    <div data-testid="map">
-        <MapContainer {...MAP_CONTAINER_PROPS}>
+function Map() {
+    const [markersComponents, setMarkers] = useState<React.ReactElement[]>(getMarkerComponents());
+    
+    return (<div data-testid="map">
+         <MapContainer center={[-23.55993522722115, -46.72985308377932]} 
+                          zoom={13}>  
             <TileLayer {...TILE_LAYER_PROPS} />
+            <div data-testid="marker">
+                {markersComponents}
+            </div>
         </MapContainer>
-    </div>
-)
+    </div>)
+}
 
 export default Map
