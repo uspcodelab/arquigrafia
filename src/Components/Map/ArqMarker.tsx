@@ -2,7 +2,7 @@ import React from 'react'
 import { Marker, Popup } from 'react-leaflet'
 import 'leaflet/dist/leaflet.css'
 import '../../style/marker.css'
-import { LatLngExpression } from 'leaflet';
+import { LatLngExpression, Point } from 'leaflet';
 
 export interface MarkerData {
     imageUrl : string;
@@ -17,7 +17,7 @@ function ArqMarker (prop: MarkerData) {
 
     return (
         <Marker position={pos}>
-            <Popup>
+            <Popup offset={[23, 0]}>
                 <img src={prop.imageUrl} className="popup-image"/>
                 <p>{prop.description}</p>               
                 <p>Autor: {prop.author}</p>

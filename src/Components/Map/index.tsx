@@ -4,6 +4,7 @@ import { useState } from 'react';
 import { MapContainer, TileLayer } from 'react-leaflet'
 import { MarkerData } from './ArqMarker'
 import ArqMarker from './ArqMarker'
+import CustomMarker from './CustomMarker';
 import 'leaflet/dist/leaflet.css'
 import markersJson from '../../markers.json'
 
@@ -27,12 +28,23 @@ function getMarkerComponents() : React.ReactElement [] {
 function Map() {
     const [markersComponents, setMarkers] = useState<React.ReactElement[]>(getMarkerComponents());
     
+    function AddMarker(auth : string, desc : string, pos : number[]) {
+        console.log(desc);
+        console.log(auth);
+        const newMarker = markersComponents.slice();
+        newMarker.push(<ArqMarker imageUrl={""} position={pos} author={auth} description={desc}/>)
+        setMarkers(newMarker);
+    }
+    
     return (<div data-testid="map">
          <MapContainer center={[-23.55993522722115, -46.72985308377932]} 
                           zoom={13}>  
             <TileLayer {...TILE_LAYER_PROPS} />
             <div data-testid="marker">
                 {markersComponents}
+            </div>
+            <div data-testid="custom-marker">
+                <CustomMarker OnCreateMarker={AddMarker}/>
             </div>
         </MapContainer>
     </div>)

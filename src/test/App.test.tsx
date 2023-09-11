@@ -19,3 +19,12 @@ describe('Marker', () => {
         expect(mapElement).toBeInTheDocument()
     })
 })
+
+describe('CustomMarker', () => {
+    it('should render correctly', () => {
+        render(<App />)
+
+        const mapElement = screen.getByTestId('custom-marker')
+        expect(mapElement).toBeInTheDocument()
+    })
+})
